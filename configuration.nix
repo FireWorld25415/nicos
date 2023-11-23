@@ -10,7 +10,7 @@
       ./hardware-configuration.nix
       ./nix.nix
       ./desktop.nix
-      #./fprint.nix
+     #./fprint.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -80,7 +80,6 @@
     "steam-original"
     "steam"
     "discord"
-    "obsidian"
     "parsec-bin"   
   ];
 
@@ -97,7 +96,6 @@
       signal-desktop
       steam
       discord
-      obsidian
       vscode
       mangal
       krita
@@ -117,6 +115,7 @@
    sops
    jre8
    ffmpeg-full
+   usbutils
  ];
 
 
